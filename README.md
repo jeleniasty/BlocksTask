@@ -21,7 +21,7 @@ methods included in given interfaces in class named Wall.
 * main class was made only for testing purposes
 
 ### Implementation
-![Implementation scheme](implementationExample.PNG)
+![Implementation scheme](src/implementationExample.png)
 
 * **public Optional<Block> findBlockByColor(String color)** method takes color of 
 block and returns example block object of this color
