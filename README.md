@@ -11,14 +11,14 @@ The main goal of the task was to analyse and implement three
 methods included in given interfaces in class named Wall. 
 
 ### Main assumptions:
-*Block is elementary unit of the structure
-*Composite block is intermediate unit of structure consisting of blocks
-*Wall is target structure consisting of composite blocks
+* Block is elementary unit of the structure
+* Composite block is intermediate unit of structure consisting of blocks
+* Wall is target structure consisting of composite blocks
 
 ### Additional assumptions:
-*All blocks in a single composite block must be of the same color and material
-*Color and material of single block must be specified
-*main class was made only for testing purposes
+* All blocks in a single composite block must be of the same color and material
+* Color and material of single block must be specified
+* main class was made only for testing purposes
 
 ### Implementation
 ![Implementation scheme](./src/implementationExample.PNG)
