@@ -21,16 +21,18 @@ methods included in given interfaces in class named Wall.
 * main class was made only for testing purposes
 
 ### Implementation
+* **public Optional<Block> findBlockByColor(String color)** method takes color of
+  block and returns example block object of this color
+* **List<Block> findBlocksByMaterial(String material)** method takes material of
+  block and returns an arraylist of all blocks objects made of given material
+* **public int count()** method returns number of elementary units (Block objects)
+  from which the structure (Wall object) is build
+* **public void addBlock(Block block)** method takes block object and adds it to
+  composite block object
+
 ![Implementation scheme](src/implementationExample.png)
 
-* **public Optional<Block> findBlockByColor(String color)** method takes color of 
-block and returns example block object of this color
-* **List<Block> findBlocksByMaterial(String material)** method takes material of 
-block and returns an arraylist of all blocks objects made of given material
-* **public int count()** method returns number of elementary units (Block objects)
-from which the structure (Wall object) is build
-* **public void addBlock(Block block)** method takes block object and adds it to 
-composite block object
+
 
 
 
